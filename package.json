@@ -1,0 +1,12 @@
+{
+  "name": "microbundle-define",
+  "private": true,
+  "type": "module",
+  "exports": "./dist/microbundle-define.js",
+  "scripts": {
+    "build": "microbundle build -f modern --define process.env.FOO='hey',process.env.BAR='ho'"
+  },
+  "dependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
